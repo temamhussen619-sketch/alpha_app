@@ -27,7 +27,7 @@ class _VideoFeedScreenState extends State<VideoFeedScreen> {
         itemBuilder: (context, index) {
           final item = _feedItems[index];
           return Stack(
-            fit: StackViewConstraints.expand,
+            fit: StackFit.expand,
             children: [
               Container(
                 color: Colors.grey[900],
@@ -58,7 +58,7 @@ class _VideoFeedScreenState extends State<VideoFeedScreen> {
                 left: 15,
                 bottom: 30,
                 child: Column(
-                  crossAxisAlignment: CrossAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
                       item['author']!,
