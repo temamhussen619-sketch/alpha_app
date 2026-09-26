@@ -1,6 +1,7 @@
 name: alpha_app
-description: Alpha Motivation App
+description: "A new Flutter project for Alpha Motivation."
 publish_to: 'none'
+
 version: 1.0.0+1
 
 environment:
